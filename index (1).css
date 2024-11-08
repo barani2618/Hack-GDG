@@ -1,0 +1,94 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 800px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    text-align: left;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
